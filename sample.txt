@@ -1,0 +1,50 @@
+UNI: yw2902
+NAME: Yaqing Wang
+
+A1:
+UNIGRAM near -12.4560686964
+BIGRAM near the -1.56187888761
+TRIGRAM near the ecliptic -5.39231742278
+
+A2:
+unigram model: The perplexity is 1052.4865859
+bigram model: The perplexity is 53.8984761198
+trigram model: The perplexity is 5.7106793082
+
+A3:
+The perplexity is 12.5516094886
+
+A4:
+Yes. The best model without interpolation is trigram model. Since the model with linear interpolation is the combination of the best and other models, it is reasonable to expect poorer performance than the best model and better performance than others.
+
+A5:
+Sample 1: The perplexity is 1.54761961801
+Sample 2: The perplexity is 7.3135546517
+Since the perplexity of Sample 1 is relatively smaller, it is more likely that Sample 1 is an excerpt of the Brown training dataset. Lower perplexity implies higher probablity, thus Sample 1 has higher chance that it belongs to the training data.
+
+B2:
+TRIGRAM CONJ ADV NOUN -4.46650366731
+TRIGRAM DET NUM NOUN -0.713200128516
+TRIGRAM NOUN PRT CONJ -6.38503274104
+
+B4:
+* * 0.0
+midnight NOUN -13.1814628813
+Place VERB -15.4538814891
+primary ADJ -10.0668014957
+STOP STOP 0.0
+_RARE_ VERB -3.17732085089
+_RARE_ X -0.546359661497
+
+B5:
+-198.906734204
+
+B6:
+Percent correct tags: 93.3249946254
+
+B7:
+Percent correct tags: 87.9985146677
+
+Runtime:
+Part A time: 13.380643 sec
+Part B time: 106.247775 sec
